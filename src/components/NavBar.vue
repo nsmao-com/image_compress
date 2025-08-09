@@ -7,8 +7,10 @@ const route = useRoute()
   <header class="sticky top-0 z-10 w-full backdrop-blur-xl bg-white/70 border-b border-black/10">
     <div class="mx-auto max-w-6xl flex items-center justify-between px-4 py-3">
       <div class="flex items-center gap-3">
-        <div class="w-8 h-8 rd-2 bg-gradient-to-br from-[#6366f1] via-[#a78bfa] to-[#f472b6] shadow-lg shadow-[#a78bfa]/20"></div>
-        <h1 class="text-lg md:text-xl font-600 tracking-tight">Image Studio</h1>
+        <div class="flex items-center justify-center text-white font-bold w-8 h-8 rd-2 bg-gradient-to-br from-[#6366f1] via-[#a78bfa] to-[#f472b6] shadow-lg shadow-[#a78bfa]/20">
+          N
+        </div>
+        <h1 class="text-lg md:text-xl font-600 tracking-tight mb-0">Image Studio</h1>
       </div>
       <nav class="flex items-center gap-2 text-sm">
         <RouterLink
